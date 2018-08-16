@@ -64,8 +64,8 @@ def turn(board)
 end
 
 def input_to_index(user_input)
-  converted_input = "#{user_input}".to_i - 1	   user_input.to_i - 1
-end	end
+  user_input.to_i - 1
+end
 
 def position_taken?(board, location)
   !(board[location].nil? || board[location] == " ")
