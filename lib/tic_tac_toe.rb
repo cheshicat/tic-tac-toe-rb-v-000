@@ -63,7 +63,7 @@ def turn(board)
   display_board(board)
 end
 
-def input_to_index(user_input)
+def input_to_i(user_input)
   user_input.to_i - 1
 end
 
